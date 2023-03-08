@@ -1,7 +1,6 @@
 import React from 'react'
 import styled, {keyframes, ThemeProvider} from 'styled-components'
 import {lightTheme} from './Themes'
-import {Design, Developr} from './AllSvgs'
 import { motion } from 'framer-motion'
 
 import {LogoComponent} from '../subComponents/LogoComponent';
@@ -48,7 +47,7 @@ const ABOUT = styled.div`
  position:absolute;
  top:20%;
  left:6%;
- color:	rgb(0,0,0,0.9);
+ color:	#1A1919;
  font-size: 5rem;
  font-weight:700;
 `
