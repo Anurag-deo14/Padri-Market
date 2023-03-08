@@ -2,6 +2,7 @@ import React from 'react'
 import styled, {keyframes, ThemeProvider} from 'styled-components'
 import {lightTheme} from './Themes'
 import { motion } from 'framer-motion'
+import { PowerButton } from '../subComponents/PowerButton'
 
 import {LogoComponent} from '../subComponents/LogoComponent';
 import {SocialIcons} from '../subComponents/SocialIcons';
@@ -78,6 +79,7 @@ export const AboutPage = () => {
   return (
     <ThemeProvider theme={lightTheme}>
       <Box >
+      <PowerButton />
         <LogoComponent/>
         <SocialIcons />
         <ABOUT>

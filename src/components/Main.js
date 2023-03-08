@@ -1,7 +1,6 @@
 import React, {useState} from 'react'
 import styled, {keyframes} from 'styled-components'
 import { LogoComponent } from '../subComponents/LogoComponent'
-import { PowerButton } from '../subComponents/PowerButton'
 import { SocialIcons } from '../subComponents/SocialIcons'
 import { NavLink } from 'react-router-dom'
 import { YinYang } from './AllSvgs'

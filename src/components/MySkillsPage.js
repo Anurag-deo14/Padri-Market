@@ -2,6 +2,8 @@ import React from "react";
 import * as Components from "./Register";
 import { LogoComponent } from '../subComponents/LogoComponent'
 import { SocialIcons } from '../subComponents/SocialIcons'
+import Particles from 'react-particles-js';
+import { PowerButton } from '../subComponents/PowerButton'
 
 export const MySkillsPage = () => {
   const toggleLogin = React.useRef(null);
@@ -16,7 +18,10 @@ export const MySkillsPage = () => {
   return (
 
     <React.Fragment>
+    
       <Components.GlobalStyle />
+      <PowerButton />
+      
       <LogoComponent />
           <SocialIcons  />
       <Components.Root>

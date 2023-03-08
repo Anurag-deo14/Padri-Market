@@ -17,7 +17,7 @@ export const GlobalStyle = createGlobalStyle`
 export const Root = styled.div`
   background-color: #222;
   border-radius: 15px;
-  height: 550px;
+  height: 450px;
   width: 40vw;
   position: relative;
   overflow: hidden;
