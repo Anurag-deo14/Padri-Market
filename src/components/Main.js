@@ -78,10 +78,10 @@ z-index:1;
 `
 const rotate = keyframes`
 from{
-  transform: rotate(0);
+  transform: rotateY(0);
 }
 to{
-  transform: rotate(360deg);
+  transform: rotateY(360deg);
 }
 `
 
