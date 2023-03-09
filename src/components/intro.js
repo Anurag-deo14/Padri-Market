@@ -37,16 +37,31 @@ display:flex;
 
 .pic{
   position: absolute;
+  top: 0;
   bottom: 0;
   left: 50%;
   transform:translate(-50%,0%);
   width:100%;
   height: auto;
 }
+@media(width<900px){
+  .pic{
+    display:none;
+  }
+}
 `
 
 const Text = styled.div`
 font-size: calc(1em + 1.5vw);
+@media(width<900px){
+  font-size: 2em;
+}
+@media(width<600px){
+  font-size: 1.5em;
+}
+@media(width<450px){
+  font-size: 1em;
+}
 color: ${props => props.theme.text};
 padding: 2rem;
 cursor: pointer;
